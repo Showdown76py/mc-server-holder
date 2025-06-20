@@ -12,6 +12,14 @@ A lightweight Minecraft server that keeps a port open and displays a customizabl
 - **No Dependencies**: Pure Python implementation with no external libraries required. Plug-and-play setup.
 - **Cross-Platform**: Works on Windows, Linux, and macOS
 
+## Demo
+
+### Server List Display (MOTD)
+![MOTD Display](images/Capture_decran_2025-06-20_185202.png)
+
+### Connection Attempt (Kick Message)
+![Kick Message](images/Capture_decran_2025-06-20_185221.png)
+
 ## Installation
 
 1. Clone the repository:
