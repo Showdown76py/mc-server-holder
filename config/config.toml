@@ -1,0 +1,26 @@
+# MC Server Holder, a lightweight Minecraft server holder.
+
+[server]
+# Server binding configuration
+host = "0.0.0.0"
+port = 25565
+max_players = 0
+
+# Server messages
+[server.messages]
+kick_message = "§cSorry, the server is currently closed.\n§c§lPlease check back later!"
+
+[server.messages.motd]
+line_1 = "§6§lMY SERVER"
+line_2 = "§cServer is closed for §c§lMAINTENANCE."
+# You can center the text in the MOTD.
+# 11: both lines centered
+# 10: first line centered
+# 01: second line centered
+# 00: no lines centere
+centered = "11"
+
+# Minecraft version information
+[minecraft]
+version = "Maintenance"
+protocol_version = 47
